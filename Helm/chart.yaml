@@ -1,0 +1,4 @@
+apiVersion: v2
+name: nodeHello
+description: A Helm chart for the Node.js "Hello World" application
+version: 0.1.0
