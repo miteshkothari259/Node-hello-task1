@@ -1,0 +1,9 @@
+image:
+  repository: your-docker-registry/your-image-name #add the image repository
+  tag: latest
+  pullPolicy: IfNotPresent
+
+service:
+  type: ClusterIP
+  port: 80
+  targetPort: 3000
